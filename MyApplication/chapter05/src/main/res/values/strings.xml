@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">chapter05</string>
+    <string name="login_by_password">パスワードでログイン</string>
+    <string name="login_by_vertifycode">認証コードでログイン</string>
+    <string name="phone_number">電話番号:</string>
+    <string name="inout_phone_number">電話番号を入力してください</string>
+    <string name="login_password">パスワード</string>
+    <string name="input_password">パスワードを入力してください</string>
+    <string name="forget_password">忘れた</string>
+    <string name="remember_password">パスワードを記憶する</string>
+    <string name="login">ログイン</string>
+    <string name="inout_new_password">新パスワード</string>
+    <string name="inout_new_password_hint">新しいパスワードを入力してください</string>
+    <string name="confirm_new_password">再入力&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="confirm_new_password_again">新しいパスワードを再度確認してください</string>
+    <string name="verifycode">  認証コード：</string>
+    <string name="inpout_verifycode">認証コードを入力してください：</string>
+    <string name="get_verifycode">コード取得</string>
+    <string name="done">確&#160; &#160; &#160;認</string>
+
+</resources>

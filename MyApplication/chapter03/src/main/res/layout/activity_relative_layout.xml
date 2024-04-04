@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <TextView
+        android:id="@+id/tv_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#ffffff"
+        android:text="真ん中"
+        android:textSize="11sp"
+        android:textColor="#000000"/>
+
+
+    <TextView
+        android:id="@+id/tv_center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"
+        android:text="水平の真ん中"
+        android:textSize="11sp"
+        android:textColor="#000000"/>
+
+
+    <TextView
+        android:id="@+id/tv_center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="#ffffff"
+        android:text="垂直の真ん中"
+        android:textSize="11sp"
+        android:textColor="#000000"/>
+
+
+    <TextView
+        android:id="@+id/tv_parent_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="#ffffff"
+        android:text="親ビューの左側にある"
+        android:textSize="11sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/tv_parent_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="#ffffff"
+        android:text="親ビューの左側にある"
+        android:textSize="11sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/tv_parent_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#ffffff"
+        android:text="親ビューの上にある"
+        android:textSize="11sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/tv_parent_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:text="親ビューのボトムにある"
+        android:textSize="11sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/tv_left_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/tv_center"
+        android:layout_alignTop="@id/tv_center"
+        android:background="#ffffff"
+        android:text="真ん中ビューの左にある"
+        android:textSize="11sp"
+        android:textColor="#000000"/>
+
+
+    　　　
+</RelativeLayout>

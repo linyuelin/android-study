@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_code_system"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="コードをシステムデフォルトの色に設定する"
+        android:textSize="17sp"/>
+
+
+    <TextView
+        android:id="@+id/tv_code_eight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="コードを八桁の色に設定する"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/tv_code_six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="コードを６桁の色に設定する"
+        android:textSize="17sp"/>
+
+
+    <TextView
+        android:id="@+id/tv_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xmlファイルでコードを６桁の色に設定する"
+        android:textSize="17sp"
+        android:textColor="#00ff00"
+        />
+
+    <TextView
+        android:id="@+id/tv_values"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="リソースファイルでコードを６桁の色に設定する"
+        android:textSize="17sp"
+        android:textColor="@color/green"
+        />
+
+    <TextView
+        android:id="@+id/tv_code_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="バックカラーを緑色に"
+        android:textSize="17sp"
+
+        />
+
+    　　　　　
+</LinearLayout>
